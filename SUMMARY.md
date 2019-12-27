@@ -2,13 +2,13 @@
 
 * [README](README.md)
 
-## Android
+## root
 
-* [Frament](android/untitled.md)
-
-## Code
-
-* [코드에서 냄새가 날 때](code/bad-code.md)
+* [Android](root/android/README.md)
+  * [Fragment](root/android/fragment/README.md)
+    * [FragmentManager](root/android/fragment/fragmentmanager.md)
+* [Code](root/code/README.md)
+  * [가장 많은 정보를 가진 객체](root/code/undefined.md)
 * [Blog](https://vagabond95.github.io/)
 * [Github](https://github.com/vagabond95)
 
