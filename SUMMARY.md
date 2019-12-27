@@ -6,9 +6,9 @@
 
 * [Frament](android/untitled.md)
 
-## 구현이 막막할 때
+## Code
 
-* [Untitled](undefined/untitled.md)
+* [코드에서 냄새가 날 때](code/bad-code.md)
 * [Blog](https://vagabond95.github.io/)
 * [Github](https://github.com/vagabond95)
 
