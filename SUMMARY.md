@@ -13,6 +13,7 @@
   * [script](root/shell/script/README.md)
     * [초기 설정](root/shell/script/init.md)
     * [기본 문법](root/shell/script/syntax.md)
+  * [chmod](root/shell/chmod.md)
 * [Blog](https://vagabond95.github.io/)
 * [Github](https://github.com/vagabond95)
 
