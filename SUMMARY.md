@@ -5,8 +5,8 @@
 ## root
 
 * [Android](root/android/README.md)
-  * [Fragment](root/android/fragment/README.md)
-    * [FragmentManager](root/android/fragment/fragmentmanager.md)
+  * [EditText](root/android/edittext.md)
+  * [Fragment](root/android/fragment.md)
 * [Code](root/code/README.md)
   * [가장 많은 정보를 가진 객체](root/code/undefined.md)
 * [Shell](root/shell/README.md)
