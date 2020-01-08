@@ -5,6 +5,8 @@
 ## root
 
 * [Android](root/android/README.md)
+  * [Activity](root/android/activity.md)
+  * [Databinding](root/android/databinding.md)
   * [EditText](root/android/edittext.md)
   * [Fragment](root/android/fragment.md)
 * [Code](root/code/README.md)
