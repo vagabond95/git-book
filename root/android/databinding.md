@@ -1,6 +1,6 @@
 # Databinding
 
-## observableField.set\(\) 메소드 호출 후, notify 가 안되는 이
+## observableField.set\(\) 메소드 호출 후, notify 가 안되는 이슈
 
 observableField 의 set 메소드를 이용하여 데이터를 전달했음에도 불구하고 가끔 정상적으로 전달되지 않는 이슈가 있었음.
 
