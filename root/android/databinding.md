@@ -11,5 +11,9 @@ observableField.set(data);
 observableField.notifyChange();
 ```
 
+## executePendingBindings
+
+강제로 바인딩되어있는 데이터들을 이용하여 View 를 갱신한다. 보통 recyclerView 에서 많이 사용함. 결국 UI thread 에 view set 테스트가 쌓이는 것이므로 너무 많이 호출돼면 퍼포먼스 이슈 생길 수 있음.
+
 
 
