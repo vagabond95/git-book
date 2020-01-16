@@ -5,6 +5,8 @@
 ## root
 
 * [Android](root/android/README.md)
+  * [ImageView](root/android/imageview.md)
+  * [Style](root/android/style.md)
   * [Activity](root/android/activity.md)
   * [Databinding](root/android/databinding.md)
   * [EditText](root/android/edittext.md)
