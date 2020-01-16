@@ -37,3 +37,27 @@ observableField.notifyChange();
 
 이때 인자는 1개만 가능하다.
 
+## custom BindingAdapter 만들시 주의사항
+
+* BindinAdapter 메소드의 첫번째 인자는 항상 View 타입이어야 한다.
+
+
+
+## &lt;merge&gt;
+
+레이아웃 최상위 레벨에서 &lt;merge&gt; 를 사용하고 데이터바인딩 적용시 inflate 과정에서 에러. 개발자 가이드에서도 사용하지 말라고 나와있음. 이유는 좀 더 찾아볼 것 
+
+## &lt;include&gt;
+
+```text
+<OuterView>
+
+    <include/>
+
+</OuterView>
+```
+
+이러한 구조의 View 가 있을 때 Outer depth 에서 include 의 View 에 정의된 데이터를 넘겨주고 싶을 경우 `bind:` 활용할 것
+
+이때 bind 에 들어가는 이름은 반드시 include 에서 지정한 variable name 과 일치해야함.
+
