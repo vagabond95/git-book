@@ -5,6 +5,7 @@
 ## root
 
 * [Android](root/android/README.md)
+  * [RecyclerView](root/android/recyclerview.md)
   * [ImageView](root/android/imageview.md)
   * [Style](root/android/style.md)
   * [Activity](root/android/activity.md)
