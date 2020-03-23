@@ -7,7 +7,7 @@ TextView 에서 Link 속성을 걸어줄 때는 2가지 방법을 이용할 수 
 1. Linkify.addLink\(\) 를 이용하여 추가
 2. TextView.setAutoLinkMask\(\) / 혹은 android:autoLink 속성
 
-그런데 Linkify 를 이용해서 속성을 걸어줄 경우 아래와 같은 케이스에서는 포맷이 적 안됨.
+그런데 Linkify 를 이용해서 속성을 걸어줄 경우 아래와 같은 케이스에서는 포맷이 적용 안됨.
 
 ```text
 Linkify.addLink(textView, Linkfy.WEB_URL)
