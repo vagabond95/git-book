@@ -61,3 +61,16 @@ observableField.notifyChange();
 
 이때 bind 에 들어가는 이름은 반드시 include 에서 지정한 variable name 과 일치해야함.
 
+## String format 
+
+```markup
+// strings.xml
+<string name="user_list_title">참여유져 %d</string>
+
+// activity.xml
+<TextView
+    android:text="@{@string/user_list_title(viewModel.userCount)}"/>
+```
+
+
+
